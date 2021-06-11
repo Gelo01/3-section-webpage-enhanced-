@@ -1,0 +1,47 @@
+/** @format */
+
+#header {
+  width: 100%;
+  height: 120px;
+  background-color: $COLOR_PRIMARY;
+}
+
+.section-pad {
+  padding: 100px 0;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_image {
+  width: 200px;
+  height: 200px;
+  left: 152px;
+  top: 10px;
+  margin-left: 40px;
+}
+
+.nav_menu {
+  width: 385px;
+  height: 24px;
+}
+
+.nav_menu__name {
+  font-size: 16px;
+  padding-left: 17px;
+  padding-top: 20px;
+  font-family: $primary_font;
+  transition: transform 0.2s;
+  opacity: 1;
+  cursor: pointer;
+}
+.nav_menu__name:hover {
+  opacity: 0.8;
+}
+
+.image_placeholder {
+  margin-top: 100px;
+  margin: 0 auto;
+}

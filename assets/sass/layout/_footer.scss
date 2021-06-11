@@ -1,0 +1,86 @@
+/** @format */
+
+.myfooter {
+  margin-top: 100px;
+  padding-top: 173px;
+  align-self: start;
+  background-color: $COLOR_BLACK;
+}
+
+.icon_footer_dim {
+  text-align: center;
+}
+
+.icon-footer {
+  width: 200px;
+  height: 200px;
+  //   padding-top: 126px;
+}
+
+.services_footer {
+  width: 1015px;
+  //   height: 414px;
+  padding-left: 420px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+  //padding-right: ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_features {
+  padding-right: 24px;
+  font-family: $primary_font;
+}
+
+.footer_services_header {
+  width: 134px;
+  height: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: $COLOR_PRIMARY;
+}
+
+.footer_list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 19px;
+  text-decoration: none;
+}
+
+.footer-textbox {
+  padding-bottom: 48px;
+}
+
+.footer-base {
+  background-color: $COLOR_PRIMARY;
+  height: 80px;
+  width: 1440px;
+}
+
+.footer-text-center {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  font-family: $HEAD-FONT;
+  font-size: 16px;
+  line-height: 150%;
+  color: $BG_COLOR;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.footer-address {
+  padding-left: 240px;
+}
+
+.footer-number {
+  padding-right: 240px;
+}
+
+.footer-icon {
+  padding-right: 8px;
+}
